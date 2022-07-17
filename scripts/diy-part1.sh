@@ -11,7 +11,9 @@
 #
 
 # Add Helloworld source
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+sed -i '$a src-git argon https://github.com/jerrykuku/openwrt-package' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # Add Lienol source (need remove clash packages)
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
